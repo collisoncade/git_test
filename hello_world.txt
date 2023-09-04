@@ -1,1 +1,25 @@
-"Whatever it is, it's not for me and it shouldn't be for you." -Saul Goodman
+#==================#
+#   Cade Collison  #
+#     03/09/23     #
+#==================#
+
+</> Git commands to remember:
+    ~ Commands related to a remote repository:
+        ~ git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+        ~ git push / git push origin main
+    ~ Commands related to workflow:
+        ~ git add .
+        ~ git commit -m "A message describing the modification made in this snapshot
+    ~ Commands related to checking status or log history:
+        ~ git status
+        ~ git log
+
+</> Basic Git Syntax:
+    ~ program | action | destination
+    ~ Examples:
+        ~ git add .
+            ~ git | add | .
+        ~ git commit -m "message"
+            ~ git | commit -m | "message"
+        ~ git status
+            ~ git | status | (no destination)
